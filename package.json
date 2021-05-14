@@ -1,0 +1,27 @@
+{
+  "name": "covid-vaccine-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^10.14.0",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "alert-sound-notify": "0.0.8",
+    "axios": "^0.21.1",
+    "beeper": "^3.0.0",
+    "chalk": "^4.1.1",
+    "cli-table": "^0.3.6",
+    "inquirer": "^8.0.0"
+  }
+}
